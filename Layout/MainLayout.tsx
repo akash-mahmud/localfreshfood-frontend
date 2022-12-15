@@ -1,9 +1,20 @@
+import {Footer, Header} from '@/components/common'
 import React from 'react'
 
-export default function MainLayout() {
+interface IMainLayoutProp{
+  children:JSX.Element
+}
+export default function MainLayout({
+  children
+}:IMainLayoutProp) {
   return (
-    <div>
+    <>
+      <Header />
+      <main>
+        { children}
+      </main>
+      <Footer/>
       
-    </div>
+    </>
   )
 }

@@ -8,7 +8,7 @@ export default function Accrodion() {
           <details style={{
             boxShadow: '0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%)'
           }} className=" rounded-lg mb-6">
-            <summary className="font-semibold bg-blue-200 px-4 py-2     cursor-pointer text-black text-4xl	">
+            <summary  className="font-semibold bg-blue-200 px-4 py-2     cursor-pointer text-black text-4xl	">
               About the Store
             </summary>
             <div className=" bg-blue-100 transition-all	ease-in-out delay-500">
@@ -42,7 +42,7 @@ export default function Accrodion() {
             </summary>
             <div className="bg-blue-100">
               <div className="relative bg-gray-200 shadow-[4px_4px_4px_rgba(0,_0,_0,_0.25)] [border:1px_solid_#c1c1c1] box-border w-full flex flex-col items-center justify-start gap-[0px] text-center text-6xl text-white font-inter md:flex-col sm:flex-col">
-                <div className="self-stretch rounded-[16px_16px_0px_0px] bg-green h-[99px] shrink-0 flex flex-row p-[10px] box-border items-start justify-center">
+                <div className="self-stretch rounded-[16px_16px_0px_0px] bg-green-100 h-[99px] shrink-0 flex flex-row p-[10px] box-border items-start justify-center">
                   <div className="relative tracking-[-0.01em] leading-[125%] font-extrabold inline-block md:text-4xl md:leading-[100px] md:text-center">
                     Recently Added
                   </div>
@@ -52,7 +52,7 @@ export default function Accrodion() {
                     <div className="bg-white shadow-[4px_4px_4px_rgba(0,_0,_0,_0.25)] flex flex-col p-[10px] box-border items-center justify-start gap-[10px]">
                       <div className="self-stretch flex flex-col items-center justify-start gap-[0px]">
                         <div className="flex flex-col items-start justify-start gap-[0px]">
-                          <div className="self-stretch rounded-[8px_8px_0px_0px] bg-green overflow-hidden flex flex-row p-[2px_6px] box-border items-start justify-center">
+                          <div className="self-stretch rounded-[8px_8px_0px_0px] bg-green-100 overflow-hidden flex flex-row p-[2px_6px] box-border items-start justify-center">
                             <div className="relative leading-[18px] inline-block">
                               Store Name
                             </div>
@@ -125,7 +125,7 @@ export default function Accrodion() {
                         </div>
                       </div>
                       <div className="self-stretch flex flex-col p-[0px_18px] box-border items-center justify-start">
-                        <button className="cursor-pointer [border:1px_solid_#f1c500] p-[9px_20px] bg-green self-stretch rounded-[5px] box-border flex flex-row items-center justify-center hover:bg-orange lg:pl-[20px] lg:box-border sm:w-full mq350small:[border:1px_solid_#34ad54] mq350small:box-border">
+                        <button className="cursor-pointer [border:1px_solid_#f1c500] p-[9px_20px] bg-green-100 self-stretch rounded-[5px] box-border flex flex-row items-center justify-center hover:bg-orange lg:pl-[20px] lg:box-border sm:w-full mq350small:[border:1px_solid_#34ad54] mq350small:box-border">
                           <div className="relative text-xl leading-[18px] font-arial text-white text-center inline-block">
                             Add to trolley
                           </div>
@@ -135,7 +135,7 @@ export default function Accrodion() {
                     <div className="bg-white shadow-[4px_4px_4px_rgba(0,_0,_0,_0.25)] flex flex-col p-[10px] box-border items-center justify-start gap-[10px]">
                       <div className="self-stretch flex flex-col items-center justify-start gap-[0px]">
                         <div className="flex flex-col items-start justify-start gap-[0px]">
-                          <div className="self-stretch rounded-[8px_8px_0px_0px] bg-green overflow-hidden flex flex-row p-[2px_6px] box-border items-start justify-center">
+                          <div className="self-stretch rounded-[8px_8px_0px_0px] bg-green-100 overflow-hidden flex flex-row p-[2px_6px] box-border items-start justify-center">
                             <div className="relative leading-[18px] inline-block">
                               Store Name
                             </div>
@@ -208,7 +208,7 @@ export default function Accrodion() {
                         </div>
                       </div>
                       <div className="self-stretch flex flex-col p-[0px_18px] box-border items-center justify-start">
-                        <button className="cursor-pointer [border:1px_solid_#f1c500] p-[9px_20px] bg-green self-stretch rounded-[5px] box-border flex flex-row items-center justify-center hover:bg-orange lg:pl-[20px] lg:box-border sm:w-full mq350small:[border:1px_solid_#34ad54] mq350small:box-border">
+                        <button className="cursor-pointer [border:1px_solid_#f1c500] p-[9px_20px] bg-green-100 self-stretch rounded-[5px] box-border flex flex-row items-center justify-center hover:bg-orange lg:pl-[20px] lg:box-border sm:w-full mq350small:[border:1px_solid_#34ad54] mq350small:box-border">
                           <div className="relative text-xl leading-[18px] font-arial text-white text-center inline-block">
                             Add to trolley
                           </div>
@@ -220,7 +220,7 @@ export default function Accrodion() {
                     <div className="bg-white shadow-[4px_4px_4px_rgba(0,_0,_0,_0.25)] flex flex-col p-[10px] box-border items-center justify-start gap-[10px]">
                       <div className="self-stretch flex flex-col items-center justify-start gap-[0px]">
                         <div className="flex flex-col items-start justify-start gap-[0px]">
-                          <div className="self-stretch rounded-[8px_8px_0px_0px] bg-green overflow-hidden flex flex-row p-[2px_6px] box-border items-start justify-center">
+                          <div className="self-stretch rounded-[8px_8px_0px_0px] bg-green-100 overflow-hidden flex flex-row p-[2px_6px] box-border items-start justify-center">
                             <div className="relative leading-[18px] inline-block">
                               Store Name
                             </div>
@@ -293,7 +293,7 @@ export default function Accrodion() {
                         </div>
                       </div>
                       <div className="self-stretch flex flex-col p-[0px_18px] box-border items-center justify-start">
-                        <button className="cursor-pointer [border:1px_solid_#f1c500] p-[9px_20px] bg-green self-stretch rounded-[5px] box-border flex flex-row items-center justify-center hover:bg-orange lg:pl-[20px] lg:box-border sm:w-full mq350small:[border:1px_solid_#34ad54] mq350small:box-border">
+                        <button className="cursor-pointer [border:1px_solid_#f1c500] p-[9px_20px] bg-green-100 self-stretch rounded-[5px] box-border flex flex-row items-center justify-center hover:bg-orange lg:pl-[20px] lg:box-border sm:w-full mq350small:[border:1px_solid_#34ad54] mq350small:box-border">
                           <div className="relative text-xl leading-[18px] font-arial text-white text-center inline-block">
                             Add to trolley
                           </div>
@@ -303,7 +303,7 @@ export default function Accrodion() {
                     <div className="bg-white shadow-[4px_4px_4px_rgba(0,_0,_0,_0.25)] flex flex-col p-[10px] box-border items-center justify-start gap-[10px]">
                       <div className="self-stretch flex flex-col items-center justify-start gap-[0px]">
                         <div className="flex flex-col items-start justify-start gap-[0px]">
-                          <div className="self-stretch rounded-[8px_8px_0px_0px] bg-green overflow-hidden flex flex-row p-[2px_6px] box-border items-start justify-center">
+                          <div className="self-stretch rounded-[8px_8px_0px_0px] bg-green-100 overflow-hidden flex flex-row p-[2px_6px] box-border items-start justify-center">
                             <div className="relative leading-[18px] inline-block">
                               Store Name
                             </div>
@@ -376,7 +376,7 @@ export default function Accrodion() {
                         </div>
                       </div>
                       <div className="self-stretch flex flex-col p-[0px_18px] box-border items-center justify-start">
-                        <button className="cursor-pointer [border:1px_solid_#f1c500] p-[9px_20px] bg-green self-stretch rounded-[5px] box-border flex flex-row items-center justify-center hover:bg-orange lg:pl-[20px] lg:box-border sm:w-full mq350small:[border:1px_solid_#34ad54] mq350small:box-border">
+                        <button className="cursor-pointer [border:1px_solid_#f1c500] p-[9px_20px] bg-green-100 self-stretch rounded-[5px] box-border flex flex-row items-center justify-center hover:bg-orange lg:pl-[20px] lg:box-border sm:w-full mq350small:[border:1px_solid_#34ad54] mq350small:box-border">
                           <div className="relative text-xl leading-[18px] font-arial text-white text-center inline-block">
                             Add to trolley
                           </div>
@@ -410,7 +410,7 @@ export default function Accrodion() {
                       Help other customers like you
                     </div>
                   </div>
-                  <button className="cursor-pointer [border:none] p-[8px_16px] bg-green rounded-[10px] flex flex-row box-border items-start justify-start">
+                  <button className="cursor-pointer [border:none] p-[8px_16px] bg-green-100 rounded-[10px] flex flex-row box-border items-start justify-start">
                     <a
                       className="relative text-base font-roboto text-white text-center flex items-center justify-center w-[112px] h-[30px] shrink-0 [text-decoration:none]"
                       href="https://www.tesco.com/groceries/en-GB/reviews/submission/252193004?from=%2Fproducts%2F252193004"
