@@ -26,7 +26,7 @@ module.exports = {
         700: "#303233",
       },
       white: "#fff",
-  
+      indigo: "#1c64f2",
       green: { 100: "#34ad54", 200: "#36804a" },
       orange: "#ff9933",
       brown: "#d11f52",
