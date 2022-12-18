@@ -1,0 +1,10 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.localfreshfoods.co.uk/
+
+# Sitemaps
+Sitemap: https://www.localfreshfoods.co.uk/sitemap.xml
+Sitemap: undefined/server-sitemap-index.xml

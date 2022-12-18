@@ -3,7 +3,7 @@ import React from 'react'
 export default function index() {
   return (
     <>
-      <div className="relative h-[100vh] bg-white w-full overflow-hidden flex flex-col items-center justify-start text-center text-base text-gray-300 font-open-sans sm:pl-[16px] sm:pr-[0px] sm:box-border">
+      <div className="relative h-[100vh] bg-white w-full overflow-hidden flex flex-col items-center justify-start text-center text-base text-gray-800 font-open-sans sm:pl-[16px] sm:pr-[0px] sm:box-border">
         <div
           className="self-stretch h-full flex flex-col p-[96px_0px] 
               box-border items-center justify-start bg-[url(../public/assets/images/background@3x.png)]
@@ -43,7 +43,7 @@ export default function index() {
                   />
                 </div>
               </div>
-              <div className="self-stretch flex flex-row items-center justify-start gap-[0px] text-left text-sm text-gray-300">
+              <div className="self-stretch flex flex-row items-center justify-start gap-[0px] text-left text-sm text-gray-800">
                 <div className="flex-1 flex flex-row items-start justify-start">
                   <div className="rounded-[4px] flex flex-row items-center justify-start gap-[8px]">
                     <div className="flex  ">
@@ -59,7 +59,7 @@ export default function index() {
                     </div>
                   </div>
                 </div>
-                <div className="relative leading-[150%] font-medium text-indigo text-right inline-block">
+                <div className="relative leading-[150%] font-medium text-indigo-200 text-right inline-block">
                   Forgot password?
                 </div>
               </div>

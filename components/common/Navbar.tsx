@@ -1,5 +1,6 @@
+import Link from "next/link";
 import React from "react";
-
+import url from "@/config/url";
 
 
 
@@ -32,7 +33,12 @@ export default function NavBar() {
               </div>
               <div className="flex-1 flex flex-row items-center justify-start gap-[24px] sm:flex-col sm:flex-[unset] sm:self-stretch mq350small:flex-col">
                 <input
-                  className="[border:none] font-open-sans text-xs bg-gray-300 flex-1 rounded-[8px] flex flex-row p-[12px_16px] box-border items-center justify-start sm:flex-[unset] sm:self-stretch mq350small:flex-[unset] mq350small:self-stretch"
+                  className="[border:none] font-open-sans outline-none
+                   text-xs bg-gray-300 flex-1 rounded-[8px] flex flex-row 
+                   
+                   p-[12px_16px] box-border items-center justify-start sm:flex-[unset]
+                    sm:self-stretch mq350small:flex-[unset]
+                   mq350small:self-stretch"
                   type="search"
                   placeholder="Search"
                 />
@@ -42,7 +48,9 @@ export default function NavBar() {
                     alt=""
                     src="../../assets/images/login.svg"
                   />
-                  <div className="relative text-xs leading-[150%] font-medium font-open-sans text-gray-100 text-center inline-block">{`Login/Register `}</div>
+                  <div className="relative text-xs leading-[150%] font-medium font-open-sans text-gray-100 text-center inline-block">
+                    <Link href={url.auth.login}>Login/Register</Link>
+                  </div>
                 </button>
               </div>
             </div>
@@ -131,7 +139,6 @@ export default function NavBar() {
           </a>
         </button>
       </div>
-
     </>
   );
 };
