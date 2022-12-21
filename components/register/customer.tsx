@@ -1,6 +1,8 @@
+import url from '@/config/url'
+import Link from 'next/link'
 import React from 'react'
 
-export default function Customer() {
+export default function Customer () {
   return (
     <>
       <div className="self-stretch flex flex-col items-start justify-start gap-[20px] text-left">
@@ -14,7 +16,7 @@ export default function Customer() {
             placeholder="User Name"
           />
         </div>
-    
+
         <div className="self-stretch flex flex-col items-center justify-start gap-[8px]">
           <div className="self-stretch relative leading-[150%] font-medium inline-block">
             Email
@@ -73,9 +75,12 @@ export default function Customer() {
           </div>
         </button>
         <div className="self-stretch relative leading-[150%] font-medium inline-block">
-          Don’t have an account yet?
+          Already have an account?{' '}
+          <Link className="text-indigo-200" href={url.auth.login}>
+            Login
+          </Link>
         </div>
       </div>
     </>
-  );
+  )
 }

@@ -1,14 +1,18 @@
 import React from 'react'
 
-export default function Accrodion() {
+export default function Accrodion () {
   return (
     <div className="container">
       <div className="flex items-center  justify-center align-middle text-gray-700">
         <div className="w-1/2">
-          <details style={{
-            boxShadow: '0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%)'
-          }} className=" rounded-lg mb-6">
-            <summary  className="font-semibold bg-blue-200 px-4 py-2     cursor-pointer text-black text-4xl	">
+          <details
+            style={{
+              boxShadow:
+                '0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%)',
+            }}
+            className=" rounded-lg mb-6"
+          >
+            <summary className="font-semibold bg-blue-200 px-4 py-2     cursor-pointer text-black text-4xl	">
               About the Store
             </summary>
             <div className=" bg-blue-100 transition-all	ease-in-out delay-500">
@@ -34,9 +38,13 @@ export default function Accrodion() {
               </p>
             </div>
           </details>
-          <details style={{
-            boxShadow: '0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%)'
-          }} className=" rounded-lg mb-6">
+          <details
+            style={{
+              boxShadow:
+                '0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%)',
+            }}
+            className=" rounded-lg mb-6"
+          >
             <summary className="font-semibold bg-blue-200 px-4 py-2   cursor-pointer text-4xl">
               Store Products
             </summary>
@@ -388,9 +396,13 @@ export default function Accrodion() {
               </div>
             </div>
           </details>
-          <details style={{
-            boxShadow: '0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%)'
-          }} className=" rounded-lg mb-6">
+          <details
+            style={{
+              boxShadow:
+                '0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%)',
+            }}
+            className=" rounded-lg mb-6"
+          >
             <summary className="font-semibold bg-blue-200 px-4 py-2  cursor-pointer text-4xl">
               Store Reviews
             </summary>
@@ -402,7 +414,7 @@ export default function Accrodion() {
                       <div className="relative inline-block">39 Reviews</div>
                     </div>
                     <div className="flex flex-row items-start justify-start">
-                      <div className="relative inline-block">{`Average of 4.6 stars `}</div>
+                      <div className="relative inline-block">{'Average of 4.6 stars '}</div>
                     </div>
                   </div>
                   <div className="relative w-[375px] h-[28px] shrink-0">
@@ -415,6 +427,7 @@ export default function Accrodion() {
                       className="relative text-base font-roboto text-white text-center flex items-center justify-center w-[112px] h-[30px] shrink-0 [text-decoration:none]"
                       href="https://www.tesco.com/groceries/en-GB/reviews/submission/252193004?from=%2Fproducts%2F252193004"
                       target="_blank"
+                      rel="noreferrer"
                     >
                       Write a review
                     </a>
@@ -449,7 +462,7 @@ export default function Accrodion() {
                         <div className="relative font-medium inline-block">
                           Good Will Hunting
                         </div>
-                        <div className="relative text-xs text-gray-300 inline-block">{`1997 · Plot / Love `}</div>
+                        <div className="relative text-xs text-gray-300 inline-block">{'1997 · Plot / Love '}</div>
                       </div>
                     </div>
                     <div className="self-stretch flex flex-col items-start justify-start gap-[12px] text-center text-indigo font-inter">
@@ -526,7 +539,7 @@ export default function Accrodion() {
                         <div className="relative font-medium inline-block">
                           Good Will Hunting
                         </div>
-                        <div className="relative text-xs text-gray-300 inline-block">{`1997 · Plot / Love `}</div>
+                        <div className="relative text-xs text-gray-300 inline-block">{'1997 · Plot / Love '}</div>
                       </div>
                     </div>
                     <div className="self-stretch flex flex-col items-start justify-start gap-[12px] text-center text-indigo font-inter">
@@ -603,7 +616,7 @@ export default function Accrodion() {
                         <div className="relative font-medium inline-block">
                           Good Will Hunting
                         </div>
-                        <div className="relative text-xs text-gray-300 inline-block">{`1997 · Plot / Love `}</div>
+                        <div className="relative text-xs text-gray-300 inline-block">{'1997 · Plot / Love '}</div>
                       </div>
                     </div>
                     <div className="self-stretch flex flex-col items-start justify-start gap-[12px] text-center text-indigo font-inter">
@@ -679,7 +692,7 @@ export default function Accrodion() {
                           <div className="relative font-medium inline-block">
                             Good Will Hunting
                           </div>
-                          <div className="relative text-xs text-gray-300 inline-block">{`1997 · Plot / Love `}</div>
+                          <div className="relative text-xs text-gray-300 inline-block">{'1997 · Plot / Love '}</div>
                         </div>
                       </div>
                       <div className="self-stretch flex flex-col items-start justify-start gap-[12px] text-center text-indigo font-inter">
@@ -753,7 +766,7 @@ export default function Accrodion() {
                         <div className="relative font-medium inline-block">
                           Good Will Hunting
                         </div>
-                        <div className="relative text-xs text-gray-300 inline-block">{`1997 · Plot / Love `}</div>
+                        <div className="relative text-xs text-gray-300 inline-block">{'1997 · Plot / Love '}</div>
                       </div>
                     </div>
                     <div className="self-stretch flex flex-col items-start justify-start gap-[12px] text-center text-indigo font-inter">
@@ -824,9 +837,13 @@ export default function Accrodion() {
             </div>
           </details>
 
-          <details style={{
-            boxShadow: '0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%)'
-          }} className=" rounded-lg mb-6">
+          <details
+            style={{
+              boxShadow:
+                '0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%)',
+            }}
+            className=" rounded-lg mb-6"
+          >
             <summary className="font-semibold bg-blue-200 px-4 py-2 text-4xl    cursor-pointer text-black">
               Terms & Returns
             </summary>
@@ -856,5 +873,5 @@ export default function Accrodion() {
         </div>
       </div>
     </div>
-  );
+  )
 }

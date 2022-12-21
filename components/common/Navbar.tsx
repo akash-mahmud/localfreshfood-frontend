@@ -1,13 +1,8 @@
-import Link from "next/link";
-import React from "react";
-import url from "@/config/url";
+import Link from 'next/link'
+import React from 'react'
+import url from '@/config/url'
 
-
-
-export default function NavBar() {
-
-
-
+export default function NavBar () {
   return (
     <>
       <div className="relative w-full flex flex-col p-[12px] box-border items-start justify-start gap-[1px] border-b-[1px] [border-bottom-style:solid] border-b-gray-400">
@@ -34,8 +29,8 @@ export default function NavBar() {
               <div className="flex-1 flex flex-row items-center justify-start gap-[24px] sm:flex-col sm:flex-[unset] sm:self-stretch mq350small:flex-col">
                 <input
                   className="[border:none] font-open-sans outline-none
-                   text-xs bg-gray-300 flex-1 rounded-[8px] flex flex-row 
-                   
+                   text-xs bg-gray-300 flex-1 rounded-[8px] flex flex-row
+
                    p-[12px_16px] box-border items-center justify-start sm:flex-[unset]
                     sm:self-stretch mq350small:flex-[unset]
                    mq350small:self-stretch"
@@ -140,7 +135,5 @@ export default function NavBar() {
         </button>
       </div>
     </>
-  );
-};
-
-
+  )
+}

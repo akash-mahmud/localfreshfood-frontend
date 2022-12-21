@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Footer() {
+export default function Footer () {
   return (
     <footer className="relative bg-green-200 w-full flex flex-row p-[33px_84px] box-border items-start justify-start gap-[44px] text-left text-[18px] text-white font-roboto lg:p-[40px] lg:box-border md:flex-col md:p-[40px_24px_30px] md:box-border sm:p-[30px_24px] sm:box-border">
       <div className="flex-1 flex flex-col items-start justify-start gap-[14px] mb-[40px!important] md:flex-[unset] md:self-stretch">
@@ -53,7 +53,7 @@ export default function Footer() {
           <div className="self-stretch relative inline-block">
             Private Policy
           </div>
-          <div className="self-stretch relative inline-block">{`Terms & Conditions`}</div>
+          <div className="self-stretch relative inline-block">{'Terms & Conditions'}</div>
           <div className="self-stretch relative inline-block">
             Cookie Policy
           </div>
@@ -61,5 +61,5 @@ export default function Footer() {
         </div>
       </div>
     </footer>
-  );
+  )
 }

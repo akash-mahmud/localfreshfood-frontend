@@ -1,8 +1,10 @@
+import url from '@/config/url'
+import Link from 'next/link'
 import React from 'react'
 interface IPropType {
-  onButtonClick: (page:string) => void;
+  onButtonClick: (page: string) => void
 }
-export default function PageTwo({ onButtonClick }:IPropType) {
+export default function PageTwo({ onButtonClick }: IPropType): JSX.Element {
   return (
     <>
       <div className="self-stretch flex flex-col items-start justify-start gap-[20px] text-left">
@@ -31,7 +33,7 @@ export default function PageTwo({ onButtonClick }:IPropType) {
       <div className="self-stretch flex flex-col  mt-5 justify-start gap-[16px] text-indigo">
         <div className="flex flex-row justify-between align-middle items-center">
           <button
-            onClick={() => onButtonClick("pageone")}
+            onClick={() => onButtonClick('pageone')}
             className="transition-all cursor-pointer [border:none] p-[12px_20px] bg-green-100 self-stretch rounded-[8px] overflow-hidden flex flex-row box-border items-center justify-center hover:bg-orange"
           >
             <div className="relative text-[16px] leading-[150%] uppercase font-medium font-open-sans text-white text-left inline-block">
@@ -39,7 +41,7 @@ export default function PageTwo({ onButtonClick }:IPropType) {
             </div>
           </button>
           <button
-            onClick={() => onButtonClick("pagethree")}
+            onClick={() => onButtonClick('pagethree')}
             className="transition-all cursor-pointer [border:none] p-[12px_20px] bg-green-100 self-stretch rounded-[8px] overflow-hidden flex flex-row box-border items-center justify-center hover:bg-orange"
           >
             <div className="relative text-[16px] leading-[150%] uppercase font-medium font-open-sans text-white text-left inline-block">
@@ -48,7 +50,10 @@ export default function PageTwo({ onButtonClick }:IPropType) {
           </button>
         </div>
         <div className="self-stretch relative leading-[150%] font-medium inline-block">
-          Don’t have an account yet?
+          Already have an account?{' '}
+          <Link className="text-indigo-200" href={url.auth.login}>
+            Login
+          </Link>
         </div>
       </div>
     </>

@@ -1,7 +1,12 @@
+import { NextPage } from 'next'
 import React from 'react'
 
-export default function index() {
+const index: NextPage = () => {
   return (
-    <div>index</div>
+    <>
+
+    </>
   )
 }
+
+export default index

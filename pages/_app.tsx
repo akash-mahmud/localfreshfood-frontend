@@ -1,18 +1,18 @@
-import "../styles/globals.css";
-import "../styles/custom.css";
-import type { AppProps } from "next/app";
-import NextNProgress from "nextjs-progressbar";
+import '../styles/globals.css'
+import '../styles/custom.css'
+import type { AppProps } from 'next/app'
+import NextNProgress from 'nextjs-progressbar'
 
-import Head from "next/head";
-import Script from "next/script";
+import Head from 'next/head'
+import Script from 'next/script'
 
-export default function App({ Component, pageProps }: AppProps) {
+export default function App ({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
         <link rel="shortcut icon" href="../../assets/images/logo@2x.png" />
       </Head>
-      <NextNProgress color={"#34AD54"} />
+      <NextNProgress color={'#34AD54'} />
       <Script id="tawk" strategy="lazyOnload">
         {`
             var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
@@ -28,5 +28,5 @@ export default function App({ Component, pageProps }: AppProps) {
       </Script>
       <Component {...pageProps} />
     </>
-  );
+  )
 }

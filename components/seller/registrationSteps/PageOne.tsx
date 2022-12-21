@@ -1,8 +1,10 @@
+import url from '@/config/url'
+import Link from 'next/link'
 import React from 'react'
 interface IPropType {
-  onButtonClick: (page:string) => void;
+  onButtonClick: (page: string) => void
 }
-export default function PageOne({ onButtonClick }:IPropType) {
+export default function PageOne ({ onButtonClick }: IPropType):JSX.Element {
   return (
     <>
       <div className="self-stretch flex flex-col items-start justify-start gap-[20px] text-left">
@@ -47,11 +49,14 @@ export default function PageOne({ onButtonClick }:IPropType) {
             Next
           </div>
         </button>
-        
+
         <div className="self-stretch relative leading-[150%] font-medium inline-block">
-          Don’t have an account yet?
+          Already have an account?{' '}
+          <Link className="text-indigo-200" href={url.auth.login}>
+            Login
+          </Link>
         </div>
       </div>
     </>
-  );
+  )
 }

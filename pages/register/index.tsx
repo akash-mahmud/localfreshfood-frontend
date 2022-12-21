@@ -1,16 +1,19 @@
-import Customer from '@/components/register/customer';
-import Seller from '@/components/register/seller';
+import Customer from '@/components/register/customer'
+import Seller from '@/components/register/seller'
+import { NextPage } from 'next'
 import React from 'react'
-import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-import "react-tabs/style/react-tabs.css";
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
+import 'react-tabs/style/react-tabs.css'
 
-export default function index() { 
+const index: NextPage = () => {
   return (
     <>
-      <div className="relative 
-       bg-white w-full h-[100vh]  flex flex-col items-center justify-start text-center text-base text-gray-800 font-open-sans sm:pl-[16px] sm:pr-[0px] sm:box-border">
+      <div
+        className="relative
+       bg-white w-full h-[100vh]  flex flex-col items-center justify-start text-center text-base text-gray-800 font-open-sans sm:pl-[16px] sm:pr-[0px] sm:box-border"
+      >
         <div
-          className="self-stretch h-full flex flex-col p-[96px_0px] 
+          className="self-stretch h-full flex flex-col p-[96px_0px]
               box-border items-center justify-start bg-[url(../public/assets/images/background@3x.png)]
          bg-cover bg-no-repeat bg-[top]"
         >
@@ -53,5 +56,6 @@ export default function index() {
         </div>
       </div>
     </>
-  );
+  )
 }
+export default index

@@ -1,7 +1,7 @@
 import React from 'react'
 import Accrodion from '@/components/seller/Accordion'
-import { NextPage } from 'next';
-import MainLayout from '@/layouts/MainLayout';
+import { NextPage } from 'next'
+import MainLayout from '@/layouts/MainLayout'
 const index: NextPage = () => {
   return (
     <>
@@ -514,9 +514,9 @@ const index: NextPage = () => {
                   <div className="absolute top-[39px] left-[8.39%] leading-[30px] text-gold inline-block">
                     Localfreshfoods.co.uk
                   </div>
-                  <b className="absolute top-[77px] left-[8.39%] text-5xl leading-[36px] inline-block">{`Fresh & Natural`}</b>
+                  <b className="absolute top-[77px] left-[8.39%] text-5xl leading-[36px] inline-block">{'Fresh & Natural'}</b>
                   <div className="absolute top-[118px] left-[8.39%] text-xl leading-[20px] inline-block">
-                    <p className="[margin-block-start:0] [margin-block-end:0px]">{`Bursting with all the flavor of `}</p>
+                    <p className="[margin-block-start:0] [margin-block-end:0px]">{'Bursting with all the flavor of '}</p>
                     <p className="m-[0]"> the season</p>
                   </div>
                 </div>
@@ -531,8 +531,8 @@ const index: NextPage = () => {
                 </div>
                 <div className="overflow-hidden flex flex-col p-[40px_270px_239px_40px] box-border items-start justify-start gap-[20px] z-[1]">
                   <b className="relative text-5xl leading-[36px] inline-block">
-                    <p className="[margin-block-start:0] [margin-block-end:0px]">{`Eat Healthy `}</p>
-                    <p className="m-[0]">{` & Live Well`}</p>
+                    <p className="[margin-block-start:0] [margin-block-end:0px]">{'Eat Healthy '}</p>
+                    <p className="m-[0]">{' & Live Well'}</p>
                   </b>
                   <div className="relative leading-[22px] inline-block">
                     FARM SHOP, BUTCHERS, FISHMONGERS, BAKERIES
@@ -892,7 +892,7 @@ const index: NextPage = () => {
         </div>
       </MainLayout>
     </>
-  );
-};
+  )
+}
 
 export default index

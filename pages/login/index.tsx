@@ -1,11 +1,13 @@
+import Link from 'next/link'
 import React from 'react'
-
-export default function index() {
+import url from '@/config/url'
+import { NextPage } from 'next'
+const index: NextPage = () => {
   return (
     <>
       <div className="relative h-[100vh] bg-white w-full overflow-hidden flex flex-col items-center justify-start text-center text-base text-gray-800 font-open-sans sm:pl-[16px] sm:pr-[0px] sm:box-border">
         <div
-          className="self-stretch h-full flex flex-col p-[96px_0px] 
+          className="self-stretch h-full flex flex-col p-[96px_0px]
               box-border items-center justify-start bg-[url(../public/assets/images/background@3x.png)]
          bg-cover bg-no-repeat bg-[top]"
         >
@@ -24,12 +26,13 @@ export default function index() {
               <div className="self-stretch flex flex-col items-start justify-start gap-[20px] text-left">
                 <div className="self-stretch flex flex-col items-center justify-start gap-[8px]">
                   <div className="self-stretch relative leading-[150%] font-medium inline-block">
-                    Username
+                    Email
                   </div>
                   <input
                     className="outline-none [border:1px_solid_#d1d5db] font-open-sans text-base bg-gray-100 self-stretch rounded-[8px] box-border flex flex-row p-[12px_16px] items-start justify-start"
-                    type="text"
+                    type="email"
                     placeholder="User Name"
+                    name="email"
                   />
                 </div>
                 <div className="self-stretch flex flex-col items-center justify-start gap-[8px]">
@@ -38,8 +41,9 @@ export default function index() {
                   </div>
                   <input
                     className="outline-none [border:1px_solid_#d1d5db] bg-gray-100 self-stretch rounded-[8px] box-border flex flex-row p-[12px_16px] items-start justify-start"
-                    type="text"
+                    type="password"
                     placeholder="******"
+                    name="password"
                   />
                 </div>
               </div>
@@ -50,7 +54,7 @@ export default function index() {
                       {/* <div className="absolute top-[0px] left-[0px] rounded-[4px] bg-gray-100 w-[16px] h-[16px]" /> */}
                       <input
                         type="checkbox"
-                        value=""
+                        name="remeberMe"
                         className="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                       />
                     </div>
@@ -59,8 +63,8 @@ export default function index() {
                     </div>
                   </div>
                 </div>
-                <div className="relative leading-[150%] font-medium text-indigo-200 text-right inline-block">
-                  Forgot password?
+                <div className="relative leading-[150%] font-medium cursor-pointer text-indigo-200 text-right inline-block">
+                  <Link href={url.auth.frogetPass}>Forgot password?</Link>
                 </div>
               </div>
               <div className="self-stretch flex flex-col items-start justify-start gap-[16px] text-indigo">
@@ -70,7 +74,10 @@ export default function index() {
                   </div>
                 </button>
                 <div className="self-stretch relative leading-[150%] font-medium inline-block">
-                  Don’t have an account yet?
+                  Don’t have an account yet?{' '}
+                  <Link className="text-indigo-200" href={url.auth.register}>
+                    Register
+                  </Link>
                 </div>
               </div>
             </div>
@@ -78,5 +85,6 @@ export default function index() {
         </div>
       </div>
     </>
-  );
+  )
 }
+export default index

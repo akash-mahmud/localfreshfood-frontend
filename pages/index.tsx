@@ -1,6 +1,6 @@
-import MainLayout from "@/layouts/MainLayout";
+import MainLayout from '@/layouts/MainLayout'
 
-export default function Home() {
+export default function Home () {
   return (
     <>
       <MainLayout>
@@ -150,7 +150,7 @@ export default function Home() {
                   src="../../assets/images/image-5@2x.png"
                 />
                 <div className="flex-1 flex flex-col items-start justify-start gap-[0px] md:flex-[unset] md:self-stretch">
-                  <div className="self-stretch relative leading-[43.63px] inline-block">{`UK's bakeries & cake shops`}</div>
+                  <div className="self-stretch relative leading-[43.63px] inline-block">{'UK\'s bakeries & cake shops'}</div>
                   <div className="self-stretch relative text-sm leading-[31.51px] font-roboto text-gray-700 inline-block">
                     Search For Bakeries Near Me. Online supermarket shopping is
                     easy at localfreshfoods.co.uk.
@@ -385,5 +385,5 @@ export default function Home() {
         </main>
       </MainLayout>
     </>
-  );
+  )
 }
