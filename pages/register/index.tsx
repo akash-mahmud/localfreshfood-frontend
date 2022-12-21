@@ -1,9 +1,9 @@
-import Customer from '@/components/register/customer'
-import Seller from '@/components/register/seller'
-import { NextPage } from 'next'
-import React from 'react'
-import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
-import 'react-tabs/style/react-tabs.css'
+import Customer from '@/components/register/customer';
+import Seller from '@/components/register/seller';
+import { NextPage } from 'next';
+import React from 'react';
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import 'react-tabs/style/react-tabs.css';
 
 const index: NextPage = () => {
   return (
@@ -56,6 +56,6 @@ const index: NextPage = () => {
         </div>
       </div>
     </>
-  )
-}
-export default index
+  );
+};
+export default index;

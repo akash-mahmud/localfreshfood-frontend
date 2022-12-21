@@ -1,7 +1,7 @@
-import MainLayout from '@/layouts/MainLayout'
-import React from 'react'
+import MainLayout from '@/layouts/MainLayout';
+import React from 'react';
 
-export default function index () {
+export default function index() {
   return (
     <>
       <MainLayout>
@@ -330,7 +330,11 @@ export default function index () {
                       src="../../assets/images/vector17.svg"
                     />
                     <div className="flex-1 relative leading-[19.6px] inline-block mq350small:text-2xs">
-                      <span>{'All of our food packaging can be reused, recycled or disposed of in a sustainable way. '}</span>
+                      <span>
+                        {
+                          'All of our food packaging can be reused, recycled or disposed of in a sustainable way. '
+                        }
+                      </span>
                       <span className="text-red-200">Learn more</span>
                     </div>
                   </div>
@@ -716,7 +720,9 @@ export default function index () {
                     <div className="relative inline-block">39 Reviews</div>
                   </div>
                   <div className="flex flex-row items-start justify-start">
-                    <div className="relative inline-block">{'Average of 4.6 stars '}</div>
+                    <div className="relative inline-block">
+                      {'Average of 4.6 stars '}
+                    </div>
                   </div>
                 </div>
                 <div className="self-stretch relative h-[28px] shrink-0">
@@ -758,7 +764,9 @@ export default function index () {
                     <div className="relative font-medium inline-block">
                       Good Will Hunting
                     </div>
-                    <div className="relative text-3xs text-gray-900 inline-block">{'1997 · Plot / Love '}</div>
+                    <div className="relative text-3xs text-gray-900 inline-block">
+                      {'1997 · Plot / Love '}
+                    </div>
                   </div>
                 </div>
                 <div className="self-stretch flex flex-col items-start justify-start gap-[12px] text-center text-indigo-100 font-open-sans">
@@ -831,7 +839,9 @@ export default function index () {
                     <div className="relative font-medium inline-block">
                       Good Will Hunting
                     </div>
-                    <div className="relative text-3xs text-gray-900 inline-block">{'1997 · Plot / Love '}</div>
+                    <div className="relative text-3xs text-gray-900 inline-block">
+                      {'1997 · Plot / Love '}
+                    </div>
                   </div>
                 </div>
                 <div className="self-stretch flex flex-col items-start justify-start gap-[12px] text-center text-indigo-100 font-open-sans">
@@ -904,7 +914,9 @@ export default function index () {
                     <div className="relative font-medium inline-block">
                       Good Will Hunting
                     </div>
-                    <div className="relative text-3xs text-gray-900 inline-block">{'1997 · Plot / Love '}</div>
+                    <div className="relative text-3xs text-gray-900 inline-block">
+                      {'1997 · Plot / Love '}
+                    </div>
                   </div>
                 </div>
                 <div className="self-stretch flex flex-col items-start justify-start gap-[12px] text-center text-indigo-100 font-open-sans">
@@ -976,7 +988,9 @@ export default function index () {
                       <div className="relative font-medium inline-block">
                         Good Will Hunting
                       </div>
-                      <div className="relative text-3xs text-gray-900 inline-block">{'1997 · Plot / Love '}</div>
+                      <div className="relative text-3xs text-gray-900 inline-block">
+                        {'1997 · Plot / Love '}
+                      </div>
                     </div>
                   </div>
                   <div className="self-stretch flex flex-col items-start justify-start gap-[12px] text-center text-indigo-100 font-open-sans">
@@ -1049,7 +1063,9 @@ export default function index () {
                     <div className="relative font-medium inline-block">
                       Good Will Hunting
                     </div>
-                    <div className="relative text-3xs text-gray-900 inline-block">{'1997 · Plot / Love '}</div>
+                    <div className="relative text-3xs text-gray-900 inline-block">
+                      {'1997 · Plot / Love '}
+                    </div>
                   </div>
                 </div>
                 <div className="self-stretch flex flex-col items-start justify-start gap-[12px] text-center text-indigo-100 font-open-sans">
@@ -1378,7 +1394,9 @@ export default function index () {
           <section className="self-stretch flex flex-row items-start justify-center text-center text-4xl text-red-100 font-open-sans">
             <div className="flex-1 flex flex-col items-start justify-start gap-[28px]">
               <div className="self-stretch flex flex-row p-[1px_344px] box-border items-start justify-center">
-                <div className="flex-1 relative leading-[45.9px] inline-block">{'Ingredients, Nutritional Values & Allergens'}</div>
+                <div className="flex-1 relative leading-[45.9px] inline-block">
+                  {'Ingredients, Nutritional Values & Allergens'}
+                </div>
               </div>
               <div className="self-stretch hidden flex-row p-[8px_0px_8px_8px] box-border items-start justify-start">
                 <div className="flex-1 bg-indigo-200 h-[15px] overflow-hidden" />
@@ -1637,7 +1655,9 @@ export default function index () {
                   <div className="relative w-[510px] h-[14px] shrink-0 text-sm text-black">
                     <div className="absolute w-[calc(100%_-_144.85px)] top-[-3px] left-[15px] leading-[14px] flex items-center h-[19px] sm:text-center sm:ml-[50] mq350small:text-xs">
                       <span className="[line-break:anywhere] w-full">
-                        <span>{'*For delivery outside of mainland UK, see '}</span>
+                        <span>
+                          {'*For delivery outside of mainland UK, see '}
+                        </span>
                         <span className="text-red-200">delivery rates.</span>
                       </span>
                     </div>
@@ -1717,5 +1737,5 @@ export default function index () {
         </main>
       </MainLayout>
     </>
-  )
+  );
 }

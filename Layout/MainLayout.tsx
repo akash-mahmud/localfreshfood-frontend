@@ -1,15 +1,15 @@
-import { Footer, Header } from '@/components/common'
-import React from 'react'
+import { Footer, Header } from '@/components/common';
+import React from 'react';
 
 interface IMainLayoutProp {
-  children: JSX.Element
+  children: JSX.Element;
 }
-export default function MainLayout ({ children }: IMainLayoutProp) {
+export default function MainLayout({ children }: IMainLayoutProp) {
   return (
     <>
       <Header />
       <main>{children}</main>
       <Footer />
     </>
-  )
+  );
 }

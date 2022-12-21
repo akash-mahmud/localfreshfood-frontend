@@ -5,9 +5,9 @@ const url = {
     frogetPass: '/password/forget',
     resetPass: '/password/reset',
   },
-}
-export default url
+};
+export default url;
 
-const siteurl = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'
+const siteurl = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000';
 
-export { siteurl }
+export { siteurl };

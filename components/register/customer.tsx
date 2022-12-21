@@ -1,8 +1,8 @@
-import url from '@/config/url'
-import Link from 'next/link'
-import React from 'react'
+import url from '@/config/url';
+import Link from 'next/link';
+import React from 'react';
 
-export default function Customer () {
+export default function Customer() {
   return (
     <>
       <div className="self-stretch flex flex-col items-start justify-start gap-[20px] text-left">
@@ -82,5 +82,5 @@ export default function Customer () {
         </div>
       </div>
     </>
-  )
+  );
 }

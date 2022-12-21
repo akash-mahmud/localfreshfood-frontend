@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 
-export default function Accrodion () {
+export default function Accrodion() {
   return (
     <div className="container">
       <div className="flex items-center  justify-center align-middle text-gray-700">
@@ -414,7 +414,9 @@ export default function Accrodion () {
                       <div className="relative inline-block">39 Reviews</div>
                     </div>
                     <div className="flex flex-row items-start justify-start">
-                      <div className="relative inline-block">{'Average of 4.6 stars '}</div>
+                      <div className="relative inline-block">
+                        {'Average of 4.6 stars '}
+                      </div>
                     </div>
                   </div>
                   <div className="relative w-[375px] h-[28px] shrink-0">
@@ -462,7 +464,9 @@ export default function Accrodion () {
                         <div className="relative font-medium inline-block">
                           Good Will Hunting
                         </div>
-                        <div className="relative text-xs text-gray-300 inline-block">{'1997 · Plot / Love '}</div>
+                        <div className="relative text-xs text-gray-300 inline-block">
+                          {'1997 · Plot / Love '}
+                        </div>
                       </div>
                     </div>
                     <div className="self-stretch flex flex-col items-start justify-start gap-[12px] text-center text-indigo font-inter">
@@ -539,7 +543,9 @@ export default function Accrodion () {
                         <div className="relative font-medium inline-block">
                           Good Will Hunting
                         </div>
-                        <div className="relative text-xs text-gray-300 inline-block">{'1997 · Plot / Love '}</div>
+                        <div className="relative text-xs text-gray-300 inline-block">
+                          {'1997 · Plot / Love '}
+                        </div>
                       </div>
                     </div>
                     <div className="self-stretch flex flex-col items-start justify-start gap-[12px] text-center text-indigo font-inter">
@@ -616,7 +622,9 @@ export default function Accrodion () {
                         <div className="relative font-medium inline-block">
                           Good Will Hunting
                         </div>
-                        <div className="relative text-xs text-gray-300 inline-block">{'1997 · Plot / Love '}</div>
+                        <div className="relative text-xs text-gray-300 inline-block">
+                          {'1997 · Plot / Love '}
+                        </div>
                       </div>
                     </div>
                     <div className="self-stretch flex flex-col items-start justify-start gap-[12px] text-center text-indigo font-inter">
@@ -692,7 +700,9 @@ export default function Accrodion () {
                           <div className="relative font-medium inline-block">
                             Good Will Hunting
                           </div>
-                          <div className="relative text-xs text-gray-300 inline-block">{'1997 · Plot / Love '}</div>
+                          <div className="relative text-xs text-gray-300 inline-block">
+                            {'1997 · Plot / Love '}
+                          </div>
                         </div>
                       </div>
                       <div className="self-stretch flex flex-col items-start justify-start gap-[12px] text-center text-indigo font-inter">
@@ -766,7 +776,9 @@ export default function Accrodion () {
                         <div className="relative font-medium inline-block">
                           Good Will Hunting
                         </div>
-                        <div className="relative text-xs text-gray-300 inline-block">{'1997 · Plot / Love '}</div>
+                        <div className="relative text-xs text-gray-300 inline-block">
+                          {'1997 · Plot / Love '}
+                        </div>
                       </div>
                     </div>
                     <div className="self-stretch flex flex-col items-start justify-start gap-[12px] text-center text-indigo font-inter">
@@ -873,5 +885,5 @@ export default function Accrodion () {
         </div>
       </div>
     </div>
-  )
+  );
 }

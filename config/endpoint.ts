@@ -1,3 +1,3 @@
-const endpoint = {}
+const endpoint = {};
 
-export default endpoint
+export default endpoint;

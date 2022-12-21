@@ -1,8 +1,8 @@
-import Link from 'next/link'
-import React from 'react'
-import url from '@/config/url'
+import Link from 'next/link';
+import React from 'react';
+import url from '@/config/url';
 
-export default function NavBar () {
+export default function NavBar() {
   return (
     <>
       <div className="relative w-full flex flex-col p-[12px] box-border items-start justify-start gap-[1px] border-b-[1px] [border-bottom-style:solid] border-b-gray-400">
@@ -135,5 +135,5 @@ export default function NavBar () {
         </button>
       </div>
     </>
-  )
+  );
 }

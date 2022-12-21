@@ -1,22 +1,22 @@
-import React from 'react'
+import React from 'react';
 // import "./MultiStepProgressBar.css";
-import { ProgressBar, Step } from 'react-step-progress-bar'
+import { ProgressBar, Step } from 'react-step-progress-bar';
 interface IPropType {
-  page: String
-  onPageNumberClick: (number: string) => void
+  page: String;
+  onPageNumberClick: (number: string) => void;
 }
 const MultiStepProgressBar = ({ page, onPageNumberClick }: IPropType) => {
-  let stepPercentage = 0
+  let stepPercentage = 0;
   if (page === 'pageone') {
-    stepPercentage = 16
+    stepPercentage = 16;
   } else if (page === 'pagetwo') {
-    stepPercentage = 49.5
+    stepPercentage = 49.5;
   } else if (page === 'pagethree') {
-    stepPercentage = 82.5
+    stepPercentage = 82.5;
   } else if (page === 'pagefour') {
-    stepPercentage = 100
+    stepPercentage = 100;
   } else {
-    stepPercentage = 0
+    stepPercentage = 0;
   }
 
   return (
@@ -26,8 +26,8 @@ const MultiStepProgressBar = ({ page, onPageNumberClick }: IPropType) => {
           accomplished,
           index,
         }: {
-          accomplished: string | null
-          index: number
+          accomplished: string | null;
+          index: number;
         }) => (
           <div
             className={`indexedStep ${accomplished ? 'accomplished' : null}`}
@@ -42,8 +42,8 @@ const MultiStepProgressBar = ({ page, onPageNumberClick }: IPropType) => {
           accomplished,
           index,
         }: {
-          accomplished: string | null
-          index: number
+          accomplished: string | null;
+          index: number;
         }) => (
           <div
             className={`indexedStep ${accomplished ? 'accomplished' : null}`}
@@ -58,8 +58,8 @@ const MultiStepProgressBar = ({ page, onPageNumberClick }: IPropType) => {
           accomplished,
           index,
         }: {
-          accomplished: string | null
-          index: number
+          accomplished: string | null;
+          index: number;
         }) => (
           <div
             className={`indexedStep ${accomplished ? 'accomplished' : null}`}
@@ -74,8 +74,8 @@ const MultiStepProgressBar = ({ page, onPageNumberClick }: IPropType) => {
           accomplished,
           index,
         }: {
-          accomplished: string | null
-          index: number
+          accomplished: string | null;
+          index: number;
         }) => (
           <div
             className={`indexedStep ${accomplished ? 'accomplished' : null}`}
@@ -86,7 +86,7 @@ const MultiStepProgressBar = ({ page, onPageNumberClick }: IPropType) => {
         )}
       </Step>
     </ProgressBar>
-  )
-}
+  );
+};
 
-export default MultiStepProgressBar
+export default MultiStepProgressBar;

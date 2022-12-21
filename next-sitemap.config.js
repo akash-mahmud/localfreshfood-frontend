@@ -10,4 +10,4 @@ module.exports = {
         `https://www.localfreshfoods.co.uk/server-sitemap-index.xml`, // <==== Add here
     ],
   },
-}
+};

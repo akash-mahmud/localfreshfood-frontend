@@ -1,7 +1,7 @@
-import Link from 'next/link'
-import React from 'react'
-import url from '@/config/url'
-import { NextPage } from 'next'
+import Link from 'next/link';
+import React from 'react';
+import url from '@/config/url';
+import { NextPage } from 'next';
 const index: NextPage = () => {
   return (
     <>
@@ -85,6 +85,6 @@ const index: NextPage = () => {
         </div>
       </div>
     </>
-  )
-}
-export default index
+  );
+};
+export default index;

@@ -1,8 +1,8 @@
-import url from '@/config/url'
-import Link from 'next/link'
-import React from 'react'
+import url from '@/config/url';
+import Link from 'next/link';
+import React from 'react';
 interface IPropType {
-  onButtonClick: (page: string) => void
+  onButtonClick: (page: string) => void;
 }
 export default function PageThree({ onButtonClick }: IPropType): JSX.Element {
   return (
